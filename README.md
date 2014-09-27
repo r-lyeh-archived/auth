@@ -6,7 +6,7 @@ Auth
 - Auth is tiny. Header-only.
 - Auth is cross-platform.
 - Auth is self-contained. No dependencies.
-- Auth is MIT licensed.
+- Auth is BOOST licensed.
 
 ### Sample
 ```c++
