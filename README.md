@@ -1,4 +1,4 @@
-Auth
+Auth <a href="https://travis-ci.org/r-lyeh/auth"><img src="https://api.travis-ci.org/r-lyeh/auth.svg?branch=master" align="right" /></a>
 ====
 
 - Auth is a simple, lightweight and safe client-server authentication system. Written in C++11
