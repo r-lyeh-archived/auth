@@ -127,15 +127,15 @@ namespace auth
             template<class T>
             friend inline T& operator <<( T &ostream, const session &self ) {
                 return ostream <<
-                    "[session:" << &self << "] {" << std::endl <<
-                    ".valid=" << self.valid << std::endl <<
-                    ".timestamp=" << self.timestamp << std::endl <<
-                    ".id=" << self.id << std::endl <<
-                    ".user=" << self.user << std::endl <<
-                    ".pass=" << self.pass << std::endl <<
-                    ".public_key=" << self.public_key << std::endl <<
-                    ".passphrase=" << self.passphrase << std::endl <<
-                    "}" << std::endl, ostream;
+                    "[session:" << &self << "] {" << "\n" <<
+                    ".valid=" << self.valid << "\n" <<
+                    ".timestamp=" << self.timestamp << "\n" <<
+                    ".id=" << self.id << "\n" <<
+                    ".user=" << self.user << "\n" <<
+                    ".pass=" << self.pass << "\n" <<
+                    ".public_key=" << self.public_key << "\n" <<
+                    ".passphrase=" << self.passphrase << "\n" <<
+                    "}" << "\n", ostream;
             }
 
             bool operator<( const session &other ) const {
