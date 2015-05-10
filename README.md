@@ -6,7 +6,7 @@ Auth <a href="https://travis-ci.org/r-lyeh/auth"><img src="https://api.travis-ci
 - Auth is tiny. Header-only.
 - Auth is cross-platform.
 - Auth is self-contained. No dependencies.
-- Auth is BOOST licensed.
+- Auth is zlib/libpng licensed.
 
 ### Sample
 ```c++
