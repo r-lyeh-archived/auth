@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.6)
 project (auth)
-add_library(auth auth.cpp)
+add_library(auth STATIC auth.cpp)
 include_directories(${PROJECT_SOURCE_DIR})
 add_executable(sample sample.cc)
 target_link_libraries(sample auth)
